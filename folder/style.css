@@ -1,0 +1,84 @@
+/* Corpo da Página */
+body {
+  font-family: "FreeMono", monospace;
+  min-height: 400px;
+  background-color: #f3e2a9;
+  overflow: hidden;
+}
+
+/* Alinhamento de Título e Subtítulo */
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 150vh;
+}
+
+/* Estilização Título, Subtítulo e Resultado */
+#titulo {
+  letter-spacing: 0.1em;
+  font-size: 350%;
+  color: #f08832;
+}
+#subtitulo {
+  font-size: 115%;
+  font-style: italic;
+  color: #000000;
+  padding-bottom: 1em;
+}
+#result {
+  color: #000000;
+  font-size: 16px;
+  padding-top: 0.7em;
+}
+/* GIF Homer */
+.gif {
+  padding-top: 1.5em;
+  width: 115vh;
+}
+
+/* Estiquetas dos Input's */
+#label1 {
+  font-size: 19px;
+  font-weight: bold;
+}
+#label2 {
+  font-size: 19px;
+  font-weight: bold;
+}
+#label3 {
+  font-size: 19px;
+  font-weight: bold;
+}
+#label4 {
+  font-size: 19px;
+  font-weight: bold;
+}
+/* Estilização dos Input's */
+.areainput input {
+  height: 30px;
+  width: 70px;
+  border-radius: 10px;
+  text-align: center;
+  color: #101010;
+  background-color: transparent;
+  border-bottom: ridge, 1px;
+  outline: 0;
+  margin: 0 10px;
+}
+/* Estilização do Botão "Calcular" */
+.btn {
+  font-family: "FreeMono", monospace;
+  font-size: 15px;
+  border-radius: 10px;
+  width: 120px;
+  height: 23px;
+  background-color: #f08832;
+}
+.btn:hover {
+  background-color: #ffdab9;
+}
+.btn:active {
+  background-color: #ffdab9;
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
